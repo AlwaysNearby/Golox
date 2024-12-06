@@ -50,7 +50,7 @@ func main() {
 	r := RnpPrinter{
 		expr: golox.Binary{
 			Left: golox.Binary{
-				Left:     golox.Literal{Value: 1},
+				Left:     golox.Literal{Value: 2},
 				Operator: golox.Token{Type: golox.PLUS, Lexeme: "+", Literal: nil, Line: 1},
 				Right:    golox.Literal{Value: 2},
 			},
